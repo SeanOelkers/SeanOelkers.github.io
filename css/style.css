@@ -1,0 +1,29 @@
+body {
+	padding-top: 70px;
+}
+
+#home {
+	background: url('http://exomene.com/dev/random/dev_random.png') no-repeat center center fixed;
+	background-size: cover;
+}
+#about {
+	background: url('http://exomene.com/dev/random/dev_random.png') no-repeat center center fixed;
+	background-size: cover;
+}
+#portfolio {
+	background: url('http://exomene.com/dev/random/dev_random.png') no-repeat center center fixed;
+	background-size: cover;
+}
+#contact {
+	background: url('http://exomene.com/dev/random/dev_random.png') no-repeat center center fixed;
+	background-size: cover;
+	min-height: 500px;
+}
+#footer {
+	padding:20px;
+	height:100px;
+	background-color:#666;
+	color: #999;
+}
+
+

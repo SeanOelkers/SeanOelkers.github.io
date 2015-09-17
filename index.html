@@ -1,28 +1,119 @@
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta name="author" content="sean@seanoelkers.com">
+    <meta charset='utf-8'>
+    <meta name='description' content=''>
+    <meta name='author' content='sean@seanoelkers.com'>
     <title>SeanOelkers.github.io</title>
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='css/style.css'>
   </head>
-	  <body role="document">
-	  	<nav class="navbar navbar-default" role="navigation">
-	  		<div class="container">
-	  			<div class="navbar-header">
-	  				<a class="navbar-brand" href="http://SeanOelkers.github.io/">Sean Oelkers</a>
+	  <body role='document'>
+		  <nav class='navbar navbar-default navbar-fixed-top' role='navigation'>
+	  		<div class='container'>
+	  			<div class='navbar-header'>
+	            	<button type='button' class='navbar-toggle' data-toggle='collapse' data-target='#so-navbar-collapse'>
+	                    <span class='sr-only'>Toggle navigation</span>
+	                    <span class='icon-bar'></span>
+	                    <span class='icon-bar'></span>
+	                    <span class='icon-bar'></span>
+	                </button>
+	  				<a class='navbar-brand' href='http://SeanOelkers.github.io/'>Sean Oelkers</a>
 	  			</div>
-	  			<ul class="nav navbar-nav navbar-right">
-	  				<li><a href="#home">Home</a></li>
-	  				<li><a href="#about">About</a></li>
-	  				<li><a href="#portfolio">Portfolio</a></li>
-	  				<li><a href="#contact">Contact</a></li>
-	  			</ul>
+	  			<div class='collapse navbar-collapse' id='so-navbar-collapse'>
+		  			<ul class='nav navbar-nav navbar-right'>
+		  				<li><a href='#home'>Home</a></li>
+		  				<li><a href='#about'>About</a></li>
+		  				<li><a href='#portfolio'>Portfolio</a></li>
+		  				<li><a href='#contact'>Contact</a></li>
+		  			</ul>
+		  		</div>
 	  		</div>
-	  	</nav>
-		<div class='container theme-showcase' role='main'>
-			<h1 class='text-primary'>Hello GitHub!</h1>
+  		</nav>
+
+
+		<div class='container' id='home'>
+			<div class='page-header'>
+				<h1 class='text-primary'>Hello GitHub!</h1>
+			</div>
+			<div class='row'>
+				<div class='col-sm-5 col-sm-offset-1'>
+					<div class='well bg-warning'>
+						<h2>Some Randomness</h2>
+						<p>Here there be dragons... :P</p>
+					</div>
+				</div>
+				<div class='col-sm-5'>
+					<img class='img-responsive img-circle' src='http://i.imgur.com/aCHShIJ.jpg' />
+				</div>
+			</div>
+			<p>More...</p>
 		</div>
+
+
+		<div class='container' id='about'>
+			<div class='page-header'>
+				<h1 class='text-primary'>Hello GitHub!</h1>
+			</div>
+			<div class='row'>
+				<div class='col-sm-5 col-sm-offset-1'>
+					<h2>Some Randomness</h2>
+					<p>Here there be dragons... :P</p>
+				</div>
+				<div class='col-sm-5'>
+					<img class='img-responsive img-circle' src='http://i.imgur.com/aCHShIJ.jpg' />
+				</div>
+			</div>
+			<p>More...</p>
+		</div>
+
+
+		<div class='container' id='portfolio'>
+			<div class='page-header'>
+				<h1 class='text-primary'>Hello GitHub!</h1>
+			</div>
+			<div class='row'>
+				<div class='col-sm-5 col-sm-offset-1'>
+					<h2>Some Randomness</h2>
+					<p>Here there be dragons... :P</p>
+				</div>
+				<div class='col-sm-5'>
+					<img class='img-responsive img-circle' src='http://i.imgur.com/aCHShIJ.jpg' />
+				</div>
+			</div>
+			<p>More...</p>
+		</div>
+
+
+		<div class='container' id='contact'>
+			<div class='page-header'>
+				<h1 class='text-primary'>Contact Me!</h1>
+			</div>
+			<div class='row'>
+				<div class='col-sm-3'>
+					<a href='http://github.com/SeanOelkers' role='button' class='btn btn-primary btn-lg btn-block'><i class="fa fa-github fa-fw fa-lg"></i> Github</a>
+				</div>
+				<div class='col-sm-3'>
+					<a href='http://www.twitter.com/SeanOelkers' role='button' class='btn btn-primary btn-lg btn-block'><i class="fa fa-twitter fa-fw fa-lg"></i> Twitter</a>
+				</div>
+				<div class='col-sm-3'>
+					<a href='http://www.facebook.com/SeanOelkers' role='button' class='btn btn-primary btn-lg btn-block'><i class="fa fa-facebook-official fa-fw fa-lg"></i> Facebook</a>
+				</div>
+				<div class='col-sm-3'>
+					<a href='mailto:sean@seanoelkers.com' role='button' class='btn btn-primary btn-lg btn-block'><i class="fa fa-envelope fa-fw fa-lg"></i> email</a>
+				</div>
+			</div>
+		</div>
+
+		<div class='container' id='footer'>
+			<div class='row'>
+				<p class='text-right'>&copy; 2015 Sean Oelkers</p>
+			</div>
+		</div>
+
+
+		<script src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
+		<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
 	</body>
 </html>
