@@ -41,7 +41,7 @@ body {
 	color: #aaa;
 }
 .page-header {
-	color: #000;
+	color: #fff;
     background-color: #666;
     text-align: center;
     padding: 5px 0;
@@ -51,7 +51,7 @@ body {
     border-radius: 5px;
 }
 .page-header a {
-	color: #000;
+	color: #ccc;
 }
 .faded {
 	opacity: 0.8;
